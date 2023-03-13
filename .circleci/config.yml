@@ -49,4 +49,4 @@ workflows:
     # Run the welcome/run job in its own container
     jobs:
         - create_infrastructure
-        # - smoke_test
+        - smoke_test
